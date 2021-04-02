@@ -192,8 +192,8 @@ extras_require = dict(
 
 install_requires = [
     'setuptools>=18.5',
-    'decorator',
-    'pickleshare',
+    'decorator==4.4.2',
+    'pickleshare==0.7.5',
     'simplegeneric>0.8',
     'traitlets>=4.2',
     'prompt_toolkit>=1.0.4,<2.0.0',
